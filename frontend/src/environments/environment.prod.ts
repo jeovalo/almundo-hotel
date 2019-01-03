@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  apiAlmundo: 'https://almundo.com/api',
+  apiAlmundo: 'https://photos.estail.com/api',
   apiHotels: '/hotels'
 };
