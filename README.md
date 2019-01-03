@@ -1,5 +1,4 @@
 ## Acerca
-
 Este proyecto presenta la solución técnica de la prueba de Full-Stack o Front-End de [Almundo](https://almundo.com.co/).
 El proyecto completo(Frontend y Backend) ha sido desplegado en la nube, en los servidores de Amazón, utilizando para ello los servicios de AWS (Amazón Web Services). 
 [Ver proyecto en producción](https://hotels.almundo.jeovalo.com/)
@@ -22,7 +21,6 @@ El despliegue en un entorno de producción se hizo en:
 [Almundo Hotels](https://hotels.almundo.jeovalo.com/)
 
 ## Descripción de la Solución
-
 Para implementar la solución se utilizó el framework **Angular 6** para la parte `Frontend` y **Express** para la parte `Backend`. 
 La aplicación es responsive design para lo cual se utilizó **Bootstrap 4**.
 
@@ -52,13 +50,16 @@ npm install
 ```
 
 #### Ejecutar Backend en Desarrollo
-
-Ejecutar `npm run start-dev` para el entorno de desarrollo. Navegar localmente en `http://localhost:3000/`.
+Ejecutar `npm run start-dev` para el entorno de desarrollo. 
 
 ```
 cd almundo-hotel/backend
 npm run start-dev
 ```
+
+#### Navegar en la Aplicación Backend
+Navegar localmente en `http://localhost:3000`.
+
 
 ### Frontend
 
@@ -70,13 +71,16 @@ npm install
 ```
 
 #### Ejecutar Frontend en Desarrollo
-
-Ejecutar `ng serve` para el entorno de desarrollo. Navegar localmente en `http://localhost:4200`.
+Ejecutar `ng serve --open` para el entorno de desarrollo.
 
 ```
 cd almundo-hotel/frontend
 ng serve
 ```
+
+#### Navegar en la Aplicación Frontend
+Navegar localmente en `http://localhost:4200`.
+Si no aparece el listado de Hoteles asegúrese que está ejecutando el `Backend`
 
 ## Ayuda adicional
 Para obterner más ayuda sobre Nodje JS utilizar el comando `node --help` o visite el sitio oficial de 
