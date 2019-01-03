@@ -1,0 +1,3 @@
+  <ng-container *ngIf="(results() | async) as listado">
+    <app-hotel-detail *ngFor="let dto of listado" [hotel]="dto"></app-hotel-detail>
+  </ng-container>

@@ -1,0 +1,38 @@
+/*.card-group .card .card-body {
+  display: inline-block;
+  overflow: hidden;
+}*/
+
+.card-group .card .card-body img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-group .card .card-body .list-inline .list-inline-item span {
+  margin-top: 10px;
+  color: #464646;
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+.list-inline-item span {
+  color: #464646;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.card-group .card .card-body .card-title {
+  margin-top: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #3676B2;
+}
+
+.price {
+  color: #d66900;
+  size: 26;
+}
+
+.btn-primary {
+  background-color: #1a237e;
+}

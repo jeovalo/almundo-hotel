@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <nav class="navbar navbar-dark fixed-top bg-primary-banner flex-md-nowrap p-0">
+    <img src="assets/images/logo-almundo.svg" alt="logo almundo" />
+  </nav>
+  <div class="row">
+    <!-- Menu Izquierdo -->
+    <nav class="col-xs-3 col-sm-3 col-md-3 col-lg-3 d-none d-md-block bg-light sidebar">
+      <app-hotel-filter (upgradedFilter)="updateFilter($event)"></app-hotel-filter>
+    </nav>
+    <!-- Menu Izquierdo end -->
+
+    <!-- Contenido -->
+    <main role="main" class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ml-sm-auto px-4">
+      <router-outlet></router-outlet>
+    </main>
+    <!-- Contenido end -->
+  </div>
+</div>

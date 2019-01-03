@@ -1,0 +1,30 @@
+<!--<div class="row">-->
+    <div class="card-group">
+        <div class="card">
+            <div class="card-body container-img"><img src="assets/images/hotels/{{hotel.image}}" alt="{{hotel.name}}" class="img-thumbnail" onerror="this.onerror=null;this.src='assets/images/empty-image-140x140.png';"></div><!--class="float-left img-thumbnail"-->
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title"><strong>{{ hotel.name }}</strong></h3>
+                <p class="card-text"></p>
+                <ul class="list-inline">
+                  <li class="list-inline-item" *ngIf="hotel.stars > 0"><i class="fa fa-star"></i>&nbsp;</li>
+                  <li class="list-inline-item" *ngIf="hotel.stars > 1"><i class="fa fa-star"></i>&nbsp;</li>
+                  <li class="list-inline-item" *ngIf="hotel.stars > 2"><i class="fa fa-star"></i>&nbsp;</li>
+                  <li class="list-inline-item" *ngIf="hotel.stars > 3"><i class="fa fa-star"></i>&nbsp;</li>
+                  <li class="list-inline-item" *ngIf="hotel.stars > 4"><i class="fa fa-star"></i>&nbsp;</li>
+                </ul>
+                <ul class="list-inline">
+                  <li class="list-inline-item" *ngFor="let amenities of hotel.amenities" ><span class="icon-{{amenities}}" data-toggle="tooltip" data-placement="bottom" title="{{amenities.replace('-',' ')}}"></span>&nbsp;</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body info">
+              <p>Precio por noche por habitación</p>
+              <p class="price">ARS <span>{{hotel.price }}</span></p>
+              <button class="btn btn-primary text-center" type="button">Ver Hotel</button>
+            </div>
+        </div>
+    </div>
+<!--</div>-->

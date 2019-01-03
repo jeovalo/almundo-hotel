@@ -1,0 +1,93 @@
+
+<div id="accordion0">
+  <div class="card">
+    <div class="card-header">
+      <span><b>Filtros</b></span>
+    </div>
+  </div>
+</div>
+<div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          <i class="fas fa-search"> Nombre del hotel</i>
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          <div class="input-group mb-3">
+            <input #hotelName type="text" class="form-control" placeholder="Ingrese nombre del hotel" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+            <div class="input-group-append">
+              <button type="button" class="btn btn-primary" (click)="search(hotelName.value)">Aceptar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="accordion2">
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne2"><i class="fa fa-star" style="color: #0056b3;"> Estrellas</i></a>
+      </div>
+      <div id="collapseOne2" class="collapse show" data-parent="#accordion2">
+        <div class="card-body">
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" [(ngModel)]="starsChecks[0]" (ngModelChange)="onClickedStar(0)" class="form-check-input" value="" />Todas las estrellas
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="" [(ngModel)]="starsChecks[1]" (ngModelChange)="onClickedStar(1)" />
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+              </ul>
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="" [(ngModel)]="starsChecks[2]" (ngModelChange)="onClickedStar(2)" />
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+               </ul>
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="" [(ngModel)]="starsChecks[3]" (ngModelChange)="onClickedStar(3)" />
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+              </ul>
+              </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="" [(ngModel)]="starsChecks[4]" (ngModelChange)="onClickedStar(4)" />
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+              </ul>
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="" [(ngModel)]="starsChecks[5]" (ngModelChange)="onClickedStar(5)" />
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+              </ul>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
