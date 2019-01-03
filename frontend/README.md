@@ -23,9 +23,15 @@ Ejecutar `ng test` para ejecutar los tests unitarios utilizando [Karma](https://
 Ejecutar `ng e2e` para lanzar las pruebas de end-to-end a end-to-end via [Protractor](http://www.protractortest.org/).
 
 ## Ayuda adicional
-Para obterner más ayuda sobre Angular CLI utilizar el comando `ng help` o visite el sitio oficial de 
-[Angular CLI README] (https://github.com/angular/angular-cli/blob/master/README.md).
+Para obterner más ayuda sobre Nodje JS utilizar el comando `node --help` o visite el sitio oficial de 
+[Node Js](https://nodejs.org/es/).
+
+Para obterner más ayuda sobre Npm utilizar el comando `npm --help` o visite el sitio oficial de 
+[Npm](https://www.npmjs.com/).
+
+Para obterner más ayuda sobre Amazón AWS visite el sitio oficial de  [Amazón AWS](https://aws.amazon.com).
+
 
 ## LICENSE
 
-Este código es liberado bajo licencia Jeovalo. Ver la LICENCIA para más detalles.
+Este código es liberado bajo licencia [Jeovalo](https://www.jeovalo.com). Ver la LICENCIA para más detalles.

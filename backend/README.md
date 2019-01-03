@@ -26,13 +26,14 @@ variable que indica el entorno donde se despliega. Los artefactos empaquetados y
 
 ## Ayuda adicional
 Para obterner más ayuda sobre Nodje JS utilizar el comando `node --help` o visite el sitio oficial de 
-[Node Js] (https://nodejs.org/es/).
+[Node Js](https://nodejs.org/es/).
 
 Para obterner más ayuda sobre Npm utilizar el comando `npm --help` o visite el sitio oficial de 
-[Npm] (https://www.npmjs.com/).
+[Npm](https://www.npmjs.com/).
 
 Para obterner más ayuda sobre Amazón AWS visite el sitio oficial de  [Amazón AWS](https://aws.amazon.com).
 
+
 ## LICENSE
 
-Este código es liberado bajo licencia Jeovalo. Ver la LICENCIA para más detalles.
+Este código es liberado bajo licencia [Jeovalo](https://www.jeovalo.com). Ver la LICENCIA para más detalles.

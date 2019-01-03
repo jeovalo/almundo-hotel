@@ -23,19 +23,19 @@ El despliegue en un entorno de producción se hizo en:
 
 ## Descripción de la Solución
 
-Para implementar la solución se utilizó el framework **Angular 6** para la parte Frontend y **Express** para la parte Backend. 
+Para implementar la solución se utilizó el framework **Angular 6** para la parte `Frontend` y **Express** para la parte `Backend`. 
 La aplicación es responsive design para lo cual se utilizó **Bootstrap 4**.
 
 ## Run
-Para ejecutar la aplicación,  se debe ejecutar por separado el servidor de Backend y el de Frontend, por favor leer el README de cada proyecto donde se
+Para ejecutar la aplicación,  se debe ejecutar por separado el servidor de `Backend` y el de `Frontend`, por favor leer el README de cada proyecto donde se
 detalla exactamente cómo ejecutar cada aplicación respectivamente en los diferentes entornos.
-A continuación aparece una guía rápida con los pasos que se deben seguir ejecutar la aplicación en el entorno de desarrollo.
+A continuación aparece una guía rápida con los pasos que se deben seguir para ejecutar la aplicación en el entorno de desarrollo.
 
 ### Requisitos Previos
 - Instalar Node y Npm.
 
-### Clonar la Rama del repositirio de Gitgub
-- Clonar la rama desde github, la rama contiene dos directorios `backend` y `frontend`  que corresponden a la aplicación Front y Back respectivamente.
+### Clonar la Rama del repositorio de Github
+- Clonar la rama desde github, la rama contiene dos directorios `backend` y `frontend`  que corresponden a la aplicación `Front` y `Back` respectivamente.
 
 ```
 git clone https://github.com/jeovalo/almundo-hotel.git
@@ -80,14 +80,14 @@ ng serve
 
 ## Ayuda adicional
 Para obterner más ayuda sobre Nodje JS utilizar el comando `node --help` o visite el sitio oficial de 
-[Node Js] (https://nodejs.org/es/).
+[Node Js](https://nodejs.org/es/).
 
 Para obterner más ayuda sobre Npm utilizar el comando `npm --help` o visite el sitio oficial de 
-[Npm] (https://www.npmjs.com/).
+[Npm](https://www.npmjs.com/).
 
 Para obterner más ayuda sobre Amazón AWS visite el sitio oficial de  [Amazón AWS](https://aws.amazon.com).
 
 
 ## LICENSE
 
-Este código es liberado bajo licencia Jeovalo. Ver la LICENCIA para más detalles.
+Este código es liberado bajo licencia [Jeovalo](https://www.jeovalo.com). Ver la LICENCIA para más detalles.
