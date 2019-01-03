@@ -10,10 +10,11 @@ El Frontend ha sido generado con:
 [Angular CLI](https://github.com/angular/angular-cli) version 6.2.8.
 
 ### Backend
-El Backend ha implementado con:
+El Backend se ha implementado con:
 [node.js](https://nodejs.org/es/) versión v11.4.0
 [npm](https://www.npmjs.com/) versión 6.4.1
 [express](http://expressjs.com/) versión 4.16.0
+[nodemon](https://nodemon.io/) versión 1.18.9
 
 ### Despliegue Producción
 El despliegue en un entorno de producción se hizo en:

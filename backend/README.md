@@ -3,8 +3,17 @@ El proyecto completo(Frontend y Backend) ha sido desplegado en la nube, en los s
 [Ver proyecto en producción](https://hotels.almundo.jeovalo.com/)
 
 # Backend
-El Backend ha sido generado con [node.js](https://nodejs.org/es/) versión v11.4.0 y el despliegue se hizo en [AWS](https://aws.amazon.com/)
-con [npm](https://www.npmjs.com/) versión 6.4.1.
+El Backend se ha implementado con:
+[node.js](https://nodejs.org/es/) versión v11.4.0
+[npm](https://www.npmjs.com/) versión 6.4.1
+[express](http://expressjs.com/) versión 4.16.0
+[nodemon](https://nodemon.io/) versión 1.18.9
+
+## Despliegue Producción
+El despliegue en un entorno de producción se hizo en:
+[AWS](https://aws.amazon.com/)
+[Almundo Hotels](https://hotels.almundo.jeovalo.com/)
+
 
 ## Ejecutar en servidor de Desarrollo
 Ejecutar `npm run start-dev` para el entorno de desarrollo. Navegar localmente en `http://localhost:3000/`. En el modo desarrollo, la aplicación reinicia automaticamente el servidor si detecta cualquier cambio en los archivos fuentes, para esto utiliza `nodemon`.
