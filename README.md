@@ -1,3 +1,6 @@
+
+## [Ver la App funcionando Almundo Hotels](https://photos.estail.com/)
+
 ## Acerca
 Este proyecto presenta la solución técnica de la prueba de Full-Stack o Front-End de [Almundo](https://almundo.com.co/).
 El proyecto completo(Frontend y Backend) ha sido desplegado en la nube, en los servidores de Amazón, utilizando para ello los servicios de AWS (Amazón Web Services). 
