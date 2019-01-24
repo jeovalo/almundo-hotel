@@ -1,5 +1,5 @@
 
-## [Ver la App funcionando Almundo Hotels](https://photos.estail.com/)
+### [Ver la App funcionando en AWS: Almundo Hotels](https://photos.estail.com/)
 
 ## Acerca
 Este proyecto presenta la solución técnica de la prueba de Full-Stack o Front-End de [Almundo](https://almundo.com.co/).
