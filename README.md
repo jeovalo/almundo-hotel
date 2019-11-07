@@ -1,8 +1,8 @@
 
-### [Ver la App funcionando en AWS: Almundo Hotels](https://photos.estail.com/)
+### [Ver la App funcionando en AWS: Hotels](https://photos.estail.com/)
 
 ## Acerca
-Este proyecto presenta la solución técnica de la prueba de Full-Stack o Front-End de [Almundo](https://almundo.com.co/).
+Este proyecto presenta la solución técnica de una simple app de Hoteles(Full-Stack) [Hotels](https://photos.estail.com/).
 El proyecto completo(Frontend y Backend) ha sido desplegado en la nube, en los servidores de Amazón, utilizando para ello los servicios de AWS (Amazón Web Services). 
 [Ver proyecto en producción](https://photos.estail.com/)
 
@@ -22,7 +22,7 @@ El Backend se ha implementado con:
 ### Despliegue Producción
 El despliegue en un entorno de producción se hizo en:
 [AWS](https://aws.amazon.com/)
-[Almundo Hotels](https://photos.estail.com/)
+[Hotels](https://photos.estail.com/)
 
 ## Descripción de la Solución
 Para implementar la solución se utilizó el framework **Angular 6** para la parte `Frontend` y **Express** para la parte `Backend`. 
